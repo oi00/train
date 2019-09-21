@@ -1,0 +1,12 @@
+package train;
+
+public abstract class Worker {
+	String name;
+	Worker(String name){
+		this.name = name;
+	}
+
+	public void work() {
+		System.out.print(name+"業務を開始します");
+	}
+}

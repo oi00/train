@@ -1,0 +1,8 @@
+package train;
+
+public abstract class Worker {
+	String name;
+	Worker(String name){
+		this.name = name;
+	}
+}

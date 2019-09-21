@@ -1,0 +1,12 @@
+package trainPolymorphism;
+
+public class Programer extends Worker {
+	Programer(String name){
+		super(name);
+	}
+
+	@Override
+	void working() {
+		System.out.print("業務内容：プログラミング");
+	}
+}

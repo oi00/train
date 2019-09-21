@@ -1,0 +1,14 @@
+package trainPolymorphism;
+
+public class Polymorphism {
+	public static void main(String[] args) {
+		Worker pg = new Programmer("pg:");
+		Worker ne = new NetworkEngineer("ne:");
+		pg.work();
+		ne.work();
+		pg.working();
+		ne.working();
+		pg.finish_working();
+		ne.finish_working();
+	}
+}

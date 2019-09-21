@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/Applications/Eclipse_2019-06.app/Contents/workspace/.metadata/.plugins/org.eclipse.jdt.core
+3715892734.index
+3715372869.index
